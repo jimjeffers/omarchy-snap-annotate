@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.jimjeffers.snap-annotate",
+  "name": "Screenshots",
+  "version": "0.1.0",
+  "author": "Jim Jeffers",
+  "license": "MIT",
+  "description": "A full-height gallery of recent screenshots. Type to search, click to reopen one in Omasnap for annotation, or copy its path for an editor or agent.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Screenshots",
+    "description": "Browse, search and re-annotate recent screenshots.",
+    "category": "Utilities",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "directory": "",
+      "panelWidth": 380,
+      "limit": 400
+    },
+    "schema": [
+      {
+        "key": "directory",
+        "type": "path",
+        "label": "Screenshot folder",
+        "description": "Leave empty to use OMASNAP_SCREENSHOT_DIR, or ~/Pictures/Screenshots.",
+        "defaultValue": ""
+      },
+      {
+        "key": "panelWidth",
+        "type": "integer",
+        "label": "Sidebar width",
+        "min": 260,
+        "max": 900,
+        "step": 20,
+        "defaultValue": 380
+      },
+      {
+        "key": "limit",
+        "type": "integer",
+        "label": "Most screenshots listed",
+        "min": 50,
+        "max": 5000,
+        "step": 50,
+        "defaultValue": 400
+      }
+    ]
+  }
+}

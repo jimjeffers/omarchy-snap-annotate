@@ -1,0 +1,21 @@
+{
+  "title": "Screenshots",
+  "search": "Type to search screenshots…",
+  "count": { "one": "%1 shot", "other": "%1 shots" },
+  "matches": { "one": "%1 match", "other": "%1 matches" },
+  "justNow": "Just now",
+  "minutesAgo": { "one": "%1 minute ago", "other": "%1 minutes ago" },
+  "hoursAgo": { "one": "%1 hour ago", "other": "%1 hours ago" },
+  "daysAgo": { "one": "%1 day ago", "other": "%1 days ago" },
+  "weeksAgo": { "one": "%1 week ago", "other": "%1 weeks ago" },
+  "monthsAgo": { "one": "%1 month ago", "other": "%1 months ago" },
+  "yearsAgo": { "one": "%1 year ago", "other": "%1 years ago" },
+  "untitled": "Screenshot",
+  "copy": "Copy path",
+  "copied": "Path copied",
+  "annotate": "Open in Omasnap to annotate",
+  "empty": "No screenshots in %1 yet",
+  "noMatches": "No screenshots match “%1”",
+  "missing": "Can't read %1",
+  "hint": "Enter annotate · Ctrl+C copy path · Esc close"
+}
