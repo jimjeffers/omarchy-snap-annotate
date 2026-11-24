@@ -5,6 +5,8 @@ Omarchy bar. Search them by name, reopen one in Omasnap to annotate it, or
 copy its path to paste into an editor or an agent session. It works with the
 bar on any edge.
 
+![The Screenshots sidebar](preview.png)
+
 - **Type** as soon as it opens to filter by file name. Words can come in any
   order, and dashes and underscores are ignored, so `t3 error` matches
   `2026-11-18_07-36-12_t3-code-home-unavailable-error.png`.
