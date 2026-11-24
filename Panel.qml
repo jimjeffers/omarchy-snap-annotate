@@ -7,7 +7,7 @@ import qs.Commons
 import qs.Commons as Commons
 import "Model.js" as Model
 
-// Screenshots in the Omarchy bar: a full-height sidebar of recent
+// Snap Annotate in the Omarchy bar: a full-height sidebar of recent
 // screenshots. Typing filters by file name; clicking a shot reopens it in
 // Omasnap's editor, and its clipboard button copies the file's path.
 Panel {

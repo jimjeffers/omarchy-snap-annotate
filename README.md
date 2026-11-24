@@ -1,11 +1,11 @@
-# Screenshots for the Omarchy bar
+# Snap Annotate for the Omarchy bar
 
 A full-height sidebar of your recent screenshots, opened from an icon in the
 Omarchy bar. Search them by name, reopen one in Omasnap to annotate it, or
 copy its path to paste into an editor or an agent session. It works with the
 bar on any edge.
 
-![The Screenshots sidebar](preview.png)
+![The Snap Annotate sidebar](preview.png)
 
 - **Type** as soon as it opens to filter by file name. Words can come in any
   order, and dashes and underscores are ignored, so `t3 error` matches
@@ -35,7 +35,7 @@ captures appear while the sidebar is open.
 omarchy plugin add https://github.com/jimjeffers/omarchy-snap-annotate --enable
 ```
 
-Then add **Screenshots** to the bar from the bar settings if it doesn't
+Then add **Snap Annotate** to the bar from the bar settings if it doesn't
 appear. To open the sidebar from a keybinding, bind it to:
 
 ```sh
